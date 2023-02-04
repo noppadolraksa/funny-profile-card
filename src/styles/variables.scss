@@ -1,11 +1,4 @@
-@mixin animation-delay($time) {
-  -webkit-transition: all $time + s ease-in-out;
-  -moz-transition: all $time + s ease-in-out;
-  -o-transition: all $time + s ease-in-out;
-  transition: all $time + s ease-in-out;
-}
-
-@keyframes spin {
+@keyframes shake {
   50% {
     transform: scale(0.97);
   }
