@@ -15,16 +15,20 @@
   border: 2px solid black;
   border-radius: 12px;
   cursor: pointer;
+  position: relative;
   &__header {
     display: flex;
     justify-content: space-between;
     margin: 0px 5px;
+    position: absolute;
+    width: 86%;
   }
   &__container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 20px;
   }
   &__edit {
     cursor: pointer;
